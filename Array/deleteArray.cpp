@@ -10,10 +10,10 @@ int deleteEle(int arr[], int n, int x)
             break;
     }
 
-    if (i == n)
+    if (i == n)  // reached at end
         return n;
 
-    for (int j = i; j < n - 1; j++)
+    for (int j = i; j < n - 1; j++) // c0pies element from i to j
     {
         arr[j] = arr[j + 1];
     }
