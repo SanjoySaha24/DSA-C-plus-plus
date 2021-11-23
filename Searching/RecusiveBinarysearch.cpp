@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-
 int bSearch(int arr[], int low, int high, int x)
 {
 	if(low > high)
@@ -20,8 +19,8 @@ int bSearch(int arr[], int low, int high, int x)
 }
 
 int main() {
-    
-     int arr[] = {10, 20, 30, 40, 50, 60, 70}, n = 7;
+	
+	int arr[] = {10, 20, 30, 40, 50, 60, 70}, n = 7;
 
 	int x = 50;
 	
