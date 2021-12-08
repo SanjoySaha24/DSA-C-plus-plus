@@ -24,4 +24,6 @@ int main(){
 	
 	cout<<binsearch(arr, n, x);
 	return 0;
+
+    
 }
