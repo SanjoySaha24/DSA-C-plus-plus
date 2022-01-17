@@ -10,8 +10,9 @@ int main(){
 
   cout << n <<endl; // usual output
   cout << &n <<endl; // address
-  cout << ptr <<endl; // prints address stored by pointer
+  cout << ptr <<endl; // prints address of n variable stored by pointer
   cout << *ptr <<endl; // prints 5 as it is stored
+  cout << &ptr <<endl; // address of pointer ptr
 
   *ptr  = 10;
   cout << *ptr <<endl; // prints 10 as new value assigned to *ptr
