@@ -1,3 +1,5 @@
+// Q. Program to delete a no. from the array.
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -36,7 +38,9 @@ int main()
         cin >> arr[i];
     }
 
-    int x = 12;
+    int x;
+    cout<<"Enter value to be deleted : ";
+    cin>>x;
 
     cout << "Before Deletion" << endl;
 

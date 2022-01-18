@@ -1,19 +1,8 @@
-void reverse(int arr[], int low, int high)
-{
-	while(low < high)
-	{
-		swap(arr[high], arr[low]);
+cout << "Before Deletion" << endl;
 
-		low++;
-		high--;
-	}
-}   
+    // for (int i = 0; i < n; i++)
+    // {
+    //     cout << arr[i] << " ";
+    // }
 
-void leftRotate(int arr[], int d, int n)
-{
-	reverse(arr, 0, d - 1);
-
-	reverse(arr, d, n - 1);
-
-	reverse(arr, 0, n - 1);
-}
+    // cout << endl;
