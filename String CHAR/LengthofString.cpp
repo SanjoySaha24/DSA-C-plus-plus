@@ -11,12 +11,10 @@ int getLength(char name[]){
 
 int main(){
     char name[20];
+    cout<<"Enter ";
 
-    cout<<"Enter the word - ";
-    cin >> name;
+    cin>>name;
+    cout<<name<<endl;
 
-    cout<<"The word is "<<name<<endl;
-
-    cout<<"The length is - "<<getLength(name)<<endl;
-
+    cout<<"Length "<<getLength(name)<<endl;
 }

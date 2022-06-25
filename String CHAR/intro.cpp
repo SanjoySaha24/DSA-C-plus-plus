@@ -11,3 +11,14 @@ int main(){
     cout<<"Your name is "<<name<<endl;
   
 }
+
+// int main(){
+//      char name[20];
+
+//     cout<<"Enter name - ";
+//     cin>>name;
+
+//     cout<< "Your name is "<<endl;
+//     cout<< name <<endl;
+
+// }
