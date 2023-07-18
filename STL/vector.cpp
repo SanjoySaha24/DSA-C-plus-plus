@@ -9,7 +9,14 @@ void print_vec(vector<int> v){
 }
 
 int main(){
-    vector<int>v(5);
+    vector<int>v(5, 3);
+    v.push_back(5);
+    v.pop_back();
+
+    print_vec(v);
+
+    vector<int>v2 = v;
+    print_vec(v2);
     // vector<int>v;
     // int n;
     // cin>>n;
@@ -18,5 +25,5 @@ int main(){
     //     cin>>x;
     //     v.push_back(x);
     // }
-    print_vec(v);
+    // print_vec(v);
 }
