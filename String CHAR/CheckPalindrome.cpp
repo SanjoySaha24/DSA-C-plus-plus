@@ -1,18 +1,18 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-bool checkPalin(char a[], int n){
-    int s=0;
-    int e=n-1;
+bool checkPalindrome(char a[], int n){
+    int s = 0;
+    int e = n-1;
 
-    while(s<=e){
+    while(s <= e){
         if(a[s] != a[e]){
-            return true;
+            return 0;
         }
         else{
             s++;
             e--;
-      }
+        }
     }
     return 1;
 }
@@ -45,5 +45,5 @@ int main(){
     reverse(name,len);
     cout<<"Name in reverse "<<name<<endl;
 
-    cout<<"Palindrome or not "<< checkPalin(name,len)<<endl;
+    cout<<"Palindrome or not "<< checkPalindrome(name,len)<<endl;
 }
