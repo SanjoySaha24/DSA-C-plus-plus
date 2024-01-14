@@ -22,10 +22,15 @@ int main()
 	int max = *max_element(v.begin(), v.end());
 	cout<<max<<endl;
 
+	// find sum
 	int sum = accumulate(v.begin(), v.end(),0);
 	cout<<sum<<endl;
+
+	// count no.
 	int ct = count(v.begin(), v.end(),3);
 	cout<<ct<<endl;
+
+	// find no.
 	auto it = find(v.begin(), v.end(), 10);
 	if(it!= v.end())
 		cout<<*it<<endl;
